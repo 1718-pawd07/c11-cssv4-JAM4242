@@ -1,0 +1,71 @@
+/*
+* Jessica Molen
+* 4/16/18
+* C11 CSS
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { 
+    background-color: lightblue;
+    color: #F9B399;
+    font-family: Arial, "Times New Roman", sans-serif;
+}
+
+h1{
+    text-align:center;
+    font-size:30pt;
+    text-decoration:underline;
+}
+h1, h2, h3, h4, h5, h6{
+	background-color:#344765;
+}
+h3{
+	color:white;
+}
+
+p{
+	background-color:white;
+	color:#231107;
+
+}
+ul{
+	background-color:white;
+	color:#231107;
+
+}
+img {
+    float:right;
+    
+}
+
+
+a:link{
+	color: #F9B399;
+	text-decoration: none;
+	
+}
+
+a:visited{
+	color: brown;
+	text-decoration: overline;
+	
+}
+
+a:hover, a:focus {
+	background-color: #344765;
+	color: white;
+	
+}
+
+a:active {
+	color: #DAA520
+	
+}
